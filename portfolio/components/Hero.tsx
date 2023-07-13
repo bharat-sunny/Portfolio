@@ -47,4 +47,3 @@ export default function Hero({}: Props) {
         </div>
     );
 }
-// export default Hero
