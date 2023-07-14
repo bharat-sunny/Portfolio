@@ -1,15 +1,14 @@
-'use client'
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Experience from '@/components/Experience';
+import Skills from '@/components/Skills';
 
 
 export default function Home() {
   return (
-    <motion.div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory
+    <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory
     overflow-scroll z-0'>
       <main>
         <Header />
@@ -26,7 +25,12 @@ export default function Home() {
           <Experience />
         </section>
 
+        <section id="skills" className='snap-center'>
+          <Skills />
+
+        </section>
+
       </main>
-    </motion.div>
+    </div>
   );
 }
