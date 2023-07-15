@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
 
 
 export default function Home() {
@@ -11,7 +12,9 @@ export default function Home() {
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory
     overflow-scroll z-0'>
       <main>
-        <Header />
+        
+          <Header />
+
         
         <section id= "hero" className='snap-start'>
           <Hero />
@@ -27,7 +30,10 @@ export default function Home() {
 
         <section id="skills" className='snap-center'>
           <Skills />
+        </section>
 
+        <section id="projects" className='snap-center'>
+          <Projects />
         </section>
 
       </main>
