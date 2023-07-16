@@ -44,16 +44,6 @@ export default function Home() {
           <ContactMe />
         </section>
 
-        <Link href='#hero'>
-          <footer className='sticky bottom-10 w-full cursor-pointer'>
-            <div className='flex items-center justify-center'>
-              <HomeIcon className='h-10 w-10 rounded-full filter grayscale hover:graycale-0
-              cursor-pointer'/>
-            </div>
-
-          </footer>
-        </Link>
-
       </main>
     </div>
   );
