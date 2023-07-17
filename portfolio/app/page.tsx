@@ -18,7 +18,6 @@ export default function Home() {
       <main>
         
           <Header />
-
         
         <section id= "hero" className='snap-start'>
           <Hero />

@@ -32,7 +32,7 @@ export default function Projects({}: Props) {
                             viewport={{once:true}}
                         src='https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHN8ZW58MHx8MHx8fDA%3D&w=1000&q=80' 
                         alt='' 
-                        className='scale-80 md:x-50 md:y-50'/>
+                        className='relative-50 md:'/>
 
                         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                             <h4 className='text-4xl font-semibold text-center'>
