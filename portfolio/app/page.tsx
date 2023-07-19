@@ -17,6 +17,7 @@ export default function Home() {
     scrollbar-thumb-[#F7AB0A]'>
       <main>
         
+
           <Header />
         
         <section id= "hero" className='snap-start'>
@@ -42,6 +43,16 @@ export default function Home() {
         <section id="contact" className='snap-center'>
           <ContactMe />
         </section>
+
+        {/* <Link href='#hero'>
+          <footer className='sticky bottom- w-full cursor-pointer'>
+            <div className='flex items-center justify-center'>
+              <HomeIcon className='h-10 w-10 rounded-full filter grayscale hover:graycale-0
+              cursor-pointer'/>
+            </div>
+
+          </footer>
+        </Link> */}
 
       </main>
     </div>
