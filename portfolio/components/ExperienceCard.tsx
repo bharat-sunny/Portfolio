@@ -2,8 +2,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Profpic from './images/b2c1857e-7f39-4cbf-9b60-e24edc730c63.jpeg';
+import { Experience } from '@/typings';
 
-type Props = {}
+type Props = { experience: Experience};
 
 function ExperienceCard({}: Props) {
   return (
