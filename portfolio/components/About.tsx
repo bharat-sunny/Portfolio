@@ -7,13 +7,11 @@ import { useEffect, useState } from 'react';
 import { fetchPageInfo } from '@/utils/fetchPageInfo';
 import { urlFor } from '@/sanity';
 
-
 type Props = {}
 
 function About({}: Props) {
 
     const [preState, setPreState] = useState([] as any)
-
     useEffect(() => {
         fetchPageInfo().then(data => setPreState(data))
     },[]); 

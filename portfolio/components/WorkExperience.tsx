@@ -26,7 +26,7 @@ function WorkExperience({}: Props) {
         </h3>
 
         <div className='w-full flex space-x-5 overflow-x-scroll p-10
-        snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 
+        snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 
     scrollbar-thumb-[#F7AB0A]'>
             {preState?.map((experience:any) => <ExperienceCard key = {experience._id} experience={experience} />) }
         </div>
