@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
-import { Point, motion } from 'framer-motion'
-import Profpic from './images/b2c1857e-7f39-4cbf-9b60-e24edc730c63.jpeg';
+import { motion } from 'framer-motion'
 import { Experience } from '@/typings';
 import { urlFor } from '@/sanity';
 

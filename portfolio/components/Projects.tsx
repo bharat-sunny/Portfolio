@@ -32,7 +32,9 @@ export default function Projects({}: Props) {
             snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 
     scrollbar-thumb-[#F7AB0A]'>
                 {preState.map((project:any,i:any) => (
-                   <div className='w-screen flex-shrink-0 snap-center flex flex-col
+                   <div 
+                   key={project._id} 
+                   className='w-screen flex-shrink-0 snap-center flex flex-col
                    space-y-5 items-center justify-center p-20 md:p-44 h-screen'> 
                         
                         

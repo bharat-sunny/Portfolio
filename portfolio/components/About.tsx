@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import Profpic from './images/b2c1857e-7f39-4cbf-9b60-e24edc730c63.jpeg';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { fetchPageInfo } from '@/utils/fetchPageInfo';
