@@ -14,7 +14,7 @@ const builder = imageUrlBuilder(sanityClient)
 
 export default function Hero() {
     const [text, count]= useTypewriter({ 
-        words: ["Hello here" , " Hello My name is Bharat ", "I am developer"],
+        words: ["Hello!" , "I'm thrilled to have you here", "Lets connect"],
         loop: true,
         delaySpeed: 200
     })    

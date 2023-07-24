@@ -5,6 +5,7 @@ import {SocialIcon} from 'react-social-icons';
 import {motion} from 'framer-motion'
 import { fetchSocials } from '@/utils/fetchSocials';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 // import Link from 'next/link';
 // import { HomeIcon } from '@heroicons/react/24/solid'
 
@@ -37,13 +38,14 @@ const Header = () => {
                 cursor-pointer'/>
                 </div>
             </Link> */}
-
+            <Link href='#hero'>
             <SocialIcon 
                 // key={social._id}
-                url="https://icons8.com/icon/73/home"
+                url="https://cdn-icons-png.flaticon.com/512/61/61972.png" 
                 fgColor ="grey"
                 bgColor ="transparent" 
                 />
+            </Link>
             { prestate.map((social:any) =>
             (
              <SocialIcon 
@@ -57,6 +59,7 @@ const Header = () => {
             
         </motion.div>
 
+        <Link href='#contact'>
         <motion.div 
             initial={{
                 x: 500,
@@ -72,16 +75,17 @@ const Header = () => {
                 duration:1.5,
             }} 
             className="flex flex-row items-center text-gray-300 cursor-pointer">
+            
                 <SocialIcon 
                 className="cursor-pointer"
                 network="email"
                 fgColor="gray"
                 bgColor="transparent" 
                 />
-                
                 <p className="uppercase hidden md:inline-flex text-sm text-gray-400">Get in Touch</p>
 
         </motion.div>
+        </Link>
         
         
     </div>
