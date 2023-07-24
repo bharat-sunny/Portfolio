@@ -14,8 +14,6 @@ export default function Projects({}: Props) {
         fetchProjects().then(data => setPreState(data))
     },[]); 
     
-    console.log(preState)
-
     return (
         <motion.div
             initial ={{opacity:0}}

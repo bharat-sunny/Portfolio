@@ -5,8 +5,8 @@ import {SocialIcon} from 'react-social-icons';
 import {motion} from 'framer-motion'
 import { fetchSocials } from '@/utils/fetchSocials';
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { HomeIcon } from '@heroicons/react/24/solid'
+// import Link from 'next/link';
+// import { HomeIcon } from '@heroicons/react/24/solid'
 
 const Header = () => {
     const [prestate, setState] = useState([] as any);
