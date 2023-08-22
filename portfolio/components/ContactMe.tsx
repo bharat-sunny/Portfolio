@@ -59,7 +59,7 @@ export default function ContactMe({}: Props) {
 
           <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#F7AB] h-7 w-7 animate-pulse' />
-            <p className='text-2xl'>+18573957598</p>
+            <p className='text-2xl'>Boston</p>
           </div>
         </div>
 
